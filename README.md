@@ -20,3 +20,8 @@ TO INSTALL AND TEST THE PROGRAM FOLLOW THESE STEPS:
 
           cd test_global
           Nexp_GLSE < Nexp_GLSE_test.inp
+
+6. To test the operation of the program Nexp_dwelltime_simulator, change to the directory test_simulator and run the program:
+
+          cd test_simulator
+          Nexp_dwelltime_simulator < Nexp_dwelltime_simulator.inp
