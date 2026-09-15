@@ -6,14 +6,17 @@ Nexp_GLSE is a Global Least Square Estimator for fitting lifetime or dwell time 
 1. Compile the source code using the "make" build automation tool in the current directory, which contains Makefile. Use the ls command to make sure that the Makefile is present. Then use the make command with no command-line options.
 
 2. Move the executable files Nexp_GLSE and Nexp_dwelltime_simulator to a directory that is contained in the PATH. To print a list of all directories contained in the PATH use the command echo $PATH. If you are not the owner of the destination directory, then you will need to use the sudo command, for example:
-        sudo mv Nexp_GLSE Nexp_dwelltime_simulator /usr/local/bin
+
+          sudo mv Nexp_GLSE Nexp_dwelltime_simulator /usr/local/bin
 
 3. Before using the program(s) please read the user manual, it is in the file ./doc/Nexp_GLSE_manual.pdf . Answers to most questions can be found in that pdf document.
 
 4. To test the operation of the program Nexp_GLSE on a single data set, change to the directory test_single and run the program:
-        cd test_single
-        Nexp_GLSE < Nexp_GLSE_test.inp
+
+          cd test_single
+          Nexp_GLSE < Nexp_GLSE_test.inp
 
 5. To test the operation of the program Nexp_GLSE for global analysis, change to the directory test_global and run the program:
-        cd test_global
-        Nexp_GLSE < Nexp_GLSE_test.inp
+
+          cd test_global
+          Nexp_GLSE < Nexp_GLSE_test.inp
